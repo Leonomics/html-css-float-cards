@@ -8,7 +8,17 @@
 
 img{
     max-width: 100%;
-    float:left
+}
+
+
+.paragraph  {
+    margin-bottom: 25px;
+}
+
+.card-img   {
+    width: 100px;
+    height: 100px;
+    float: left;
 }
 
 .title  {
@@ -18,18 +28,33 @@ img{
     padding-bottom: 20px;
 }
 
+
+
 .paragraph  {
     text-align: center;
 }
 
+.card-display   {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clearfix   {
+    overflow: auto;
+}
+
 .card   {
     float: left;
-    margin-left: 15px ;
+    margin-right: 15px;
     margin-bottom: 15px;
     background-color: darkslategrey;
     box-shadow: 5px 5px 5px 5px #888888;
+    
 }
 
+.card:nth-child(4)  {
+    float:left;
+}
 
 
 .author-credentials {
