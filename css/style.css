@@ -37,6 +37,11 @@ img{
 .card-display   {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.row    {
+    max-width: 1200px;
+    margin: auto;
     overflow: auto;
 }
 
@@ -51,6 +56,7 @@ img{
     margin-right: 15px;
     background-color: darkslategrey;
     box-shadow: 5px 5px 5px 5px #888888;  
+    width: calc(33% - 15px);
 }
 
 .author-credentials {
